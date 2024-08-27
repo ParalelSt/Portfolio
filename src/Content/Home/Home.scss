@@ -1,0 +1,29 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50em;
+
+    .home-title {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            display: flex;
+            align-items: center;
+            vertical-align: middle;
+            padding: 0.5em 2em;
+            
+
+            h1 {
+                font-size: 8rem;
+                display: flex;
+                text-align: center;
+                height: 150px;
+                padding:0 0.2em;
+            }
+
+
+        }
+    }
+}

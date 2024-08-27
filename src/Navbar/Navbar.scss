@@ -1,0 +1,42 @@
+nav {
+    .nav-container {
+        display: flex;
+
+        .left-nav {
+            .nav-item {
+                padding: 1em;
+                display: flex;
+                align-items: center;
+                h1 {
+                    font-size: 2em;
+
+                    background: linear-gradient(90deg, #00FF6A, #00b4ff);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+
+        .right-nav {
+            display: flex;
+            margin-left: auto;
+            .nav-item {
+                padding: 1em 2em;
+                display: flex;
+                align-items: center;
+
+                &:hover h1{
+                    color: rgba(255, 255, 255, 0.85);
+                }
+
+                h1 {
+                    font-size: 1.5em;
+                    font-weight: normal;
+                    color: #66FF99;
+                }
+
+                
+            }
+        }
+    }
+}
