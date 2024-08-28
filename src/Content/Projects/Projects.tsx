@@ -8,7 +8,7 @@ function Projects() {
         <div className="projects-container">
           <Link to={""} className="project-container">
             <div className="img-container">
-              <img src={"/images/AmazonTypeScript.PNG"} />
+              <img src="./src/images/AmazonTypeScript.PNG" />
             </div>
             <div className="title">Amazon Copy</div>
             <div className="description">
@@ -21,7 +21,7 @@ function Projects() {
 
           <Link to={""} className="project-container">
             <div className="img-container">
-              <img src={"Images/AmazonTypeScript.png"} />
+              <img src="./src/images/AmazonTypeScript.PNG" />
             </div>
             <div className="title">Amazon Copy</div>
             <div className="description">
@@ -34,7 +34,7 @@ function Projects() {
 
           <Link to={""} className="project-container">
             <div className="img-container">
-              <img src={"Images/AmazonTypeScript.png"} />
+              <img src="./src/images/AmazonTypeScript.PNG" />
             </div>
             <div className="title">Amazon Copy</div>
             <div className="description">
@@ -47,7 +47,7 @@ function Projects() {
 
           <Link to={""} className="project-container">
             <div className="img-container">
-              <img src="./AmazonTypeScript.png" />
+              <img src="./src/images/AmazonTypeScript.PNG" />
             </div>
             <div className="title">Amazon Copy</div>
             <div className="description">
