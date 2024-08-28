@@ -14,7 +14,7 @@ function Navbar() {
         </div>
         <div className="right-nav">
           <div className="nav-item">
-            <Link to={"/portfolio"}>
+            <Link to={"/"}>
               <h1>Home</h1>
             </Link>
           </div>
