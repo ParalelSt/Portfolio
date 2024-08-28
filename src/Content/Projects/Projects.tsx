@@ -12,10 +12,10 @@ function Projects() {
             </div>
             <div className="title">Amazon Copy</div>
             <div className="description">
-              Lorem, ipsum da dolor sit amet consectetur adipisicing elit.
-              Aliquid amet quas magnam error doloremque quae illum id. Nisi
-              doloribus molestiae enim non magnam iste dolore voluptate illum.
-              Omnis, magnam cupiditate.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              amet quas magnam error doloremque quae illum id. Nisi doloribus
+              molestiae enim non magnam iste dolore voluptate illum. Omnis,
+              magnam cupiditate.
             </div>
           </Link>
 
