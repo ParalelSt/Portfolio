@@ -19,17 +19,17 @@ function Navbar() {
             </Link>
           </div>
           <div className="nav-item">
-            <Link to={"/projects"}>
+            <Link to={"/portfolio/projects"}>
               <h1>Projects</h1>
             </Link>
           </div>
           <div className="nav-item">
-            <Link to={"/about-me"}>
+            <Link to={"/portfolio/about-me"}>
               <h1>About me</h1>
             </Link>
           </div>
           <div className="nav-item">
-            <Link to={"/contact"}>
+            <Link to={"/portfolio/contact"}>
               <h1>Contact</h1>
             </Link>
           </div>
