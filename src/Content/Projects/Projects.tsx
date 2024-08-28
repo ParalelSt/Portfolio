@@ -8,7 +8,7 @@ function Projects() {
         <div className="projects-container">
           <Link to={""} className="project-container">
             <div className="img-container">
-              <img src={"/images/AmazonTypeScript.png"} />
+              <img src={"/images/AmazonTypeScript.PNG"} />
             </div>
             <div className="title">Amazon Copy</div>
             <div className="description">
