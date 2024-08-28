@@ -6,7 +6,7 @@ import "./Global/GlobalStyles.scss";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Router basename={"portfolio/"}>
+    <Router>
       <App />
     </Router>
   </StrictMode>
