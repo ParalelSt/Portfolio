@@ -33,9 +33,7 @@ nav {
             }
 
             .nav-item {
-                @include sm {
-                    padding: 0 0.3em;
-                }
+                
 
                 padding: 1em 2em;
                 display: flex;
@@ -55,7 +53,9 @@ nav {
                     }
                 }
 
-                
+                @include sm {
+                    & {padding: 0 0.3em;}
+                }
             }
         }
     }
