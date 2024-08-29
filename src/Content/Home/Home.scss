@@ -1,19 +1,33 @@
+@import "../../Global/GlobalStyles.scss";
+
 .home-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50em;
 
+    // @include sm {
+    //     height: 30em;
+    // }
+
     .home-title {
         display: flex;
         flex-direction: column;
+
+        @include sm {
+            width: 95%;
+        }
 
         span {
             display: flex;
             align-items: center;
             vertical-align: middle;
             padding: 0.5em 2em;
-            
+
+            @include sm {
+                flex-direction: column;
+                // align-items: flex-start;
+            }
 
             h1 {
                 font-size: 8rem;
@@ -21,8 +35,27 @@
                 text-align: center;
                 height: 150px;
                 padding:0 0.2em;
+
+                @include sm {
+                    font-size: 4rem;
+                    height: 0;
+                    // text-align: start;
+                }
             }
 
+            .sub-title {
+                @include sm {
+                    height: 80px;
+                }
+            }
+
+            .icon {
+                @include sm {
+                    height: 100px;
+                    margin-top: 11em;
+                    margin-left: -1em;
+                }
+            }
 
         }
     }

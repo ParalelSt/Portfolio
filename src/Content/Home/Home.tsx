@@ -7,7 +7,7 @@ function Home() {
       <div className="home-container">
         <div className="home-title">
           <span>
-            <h1>Junior</h1>
+            <h1 className="sub-title">Junior</h1>
           </span>
           <span className="title">
             <h1>Frontend Developer</h1>

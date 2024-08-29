@@ -2,11 +2,15 @@ import { Link } from "react-router-dom";
 import "./Projects.scss";
 
 function Projects() {
+  const redirect = () => {
+    window.location.href = "https://google.com";
+  };
+
   return (
     <>
       <div className="container">
         <div className="projects-container">
-          <Link to={""} className="project-container">
+          <Link onClick={redirect} to={""} className="project-container">
             <div className="img-container">
               <img src="./images/amazontypescript.png" />
             </div>

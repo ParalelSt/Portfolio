@@ -1,3 +1,5 @@
+@import "../Global/GlobalStyles.scss";
+
 nav {
     .nav-container {
         display: flex;
@@ -13,6 +15,10 @@ nav {
                     background: linear-gradient(90deg, #00FF6A, #00b4ff);
                     background-clip: text;
                     -webkit-text-fill-color: transparent;
+
+                    @include sm {
+                        font-size: 1.3em;
+                    }
                 }
             }
         }
@@ -20,7 +26,17 @@ nav {
         .right-nav {
             display: flex;
             margin-left: auto;
+
+            @include sm {
+                gap: 0.5em;
+                margin-right: 0.4em;
+            }
+
             .nav-item {
+                @include sm {
+                    padding: 0 0.3em;
+                }
+
                 padding: 1em 2em;
                 display: flex;
                 align-items: center;
@@ -33,6 +49,10 @@ nav {
                     font-size: 1.5em;
                     font-weight: normal;
                     color: #66FF99;
+
+                    @include sm {
+                        font-size: 1.2em;
+                    }
                 }
 
                 
