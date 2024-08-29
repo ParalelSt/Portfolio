@@ -38,7 +38,7 @@ function Navbar() {
               <h1>Contact</h1>
             </Link>
           </div>
-          <div className="nav-item drop-down-btn">
+          <div className="drop-down-btn nav-item ">
             {!isOpen && (
               <FaBars
                 onClick={() => toggleDropDown()}

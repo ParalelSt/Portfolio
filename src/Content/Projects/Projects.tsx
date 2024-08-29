@@ -3,7 +3,7 @@ import "./Projects.scss";
 
 function Projects() {
   const redirect = () => {
-    window.location.href = "https://google.com";
+    window.location.href = "";
   };
 
   return (
