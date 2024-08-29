@@ -17,18 +17,18 @@ body {
 }
 
 $breakpoints: (
-    "xs": 0,
+    "xs": 400px,
     "sm": 480px,
     "md": 720px,
     "lg": 960px,
     "xl": 1200px,
 );
 
-// @mixin xs {
-//     @media (max-width: map-get($breakpoints, "xs")) {
-//         @content;
-//     }
-// }
+@mixin xs {
+    @media (max-width: map-get($breakpoints, "xs")) {
+        @content;
+    }
+}
 
 @mixin sm {
     @media (max-width: map-get($breakpoints, "sm")) {

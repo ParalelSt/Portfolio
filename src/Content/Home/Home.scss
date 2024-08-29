@@ -6,9 +6,9 @@
     justify-content: center;
     height: 50em;
 
-    // @include sm {
-    //     height: 30em;
-    // }
+    @include sm {
+        height: 35em;
+    }
 
     .home-title {
         display: flex;
