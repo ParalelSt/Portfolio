@@ -26,6 +26,12 @@
             justify-items: center;
         }
 
+        @include xs {
+            grid-template-rows: repeat(4, 30em);
+            grid-template-columns: repeat(1, 25em);
+            justify-items: center;
+        }
+
 
         .project-container {
             display: flex;

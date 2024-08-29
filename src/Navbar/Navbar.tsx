@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
 import { FaBars } from "react-icons/fa6";
+import { useHandleDropDown } from "../Global/utils/DropDownButton";
+import { FaTimes } from "react-icons/fa";
 
 function Navbar() {
   const name = "Aron Matoić";
+
+  const { isOpen, toggleDropDown } = useHandleDropDown();
 
   return (
     <nav>
@@ -35,10 +39,25 @@ function Navbar() {
             </Link>
           </div>
           <div className="nav-item drop-down-btn">
-            <FaBars size={20}></FaBars>
+            {!isOpen && (
+              <FaBars
+                onClick={() => toggleDropDown()}
+                className={`drop-dwn`}
+                size={20}
+                style={{}}
+              ></FaBars>
+            )}
+            {isOpen && (
+              <FaTimes
+                onClick={() => toggleDropDown()}
+                className={`drop-dwn`}
+                size={20}
+              ></FaTimes>
+            )}
           </div>
         </div>
-        <div className="drop-down-container">
+        <div className={`drop-down-container ${isOpen ? "open" : "closed"}`}>
+          <div className="empty-bar"></div>
           <div className="nav-item-container">
             <Link to={"/portfolio/"}>
               <h1>Home</h1>
