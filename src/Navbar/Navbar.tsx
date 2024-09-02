@@ -19,22 +19,22 @@ function Navbar() {
         </div>
         <div className="right-nav">
           <div className="nav-item">
-            <Link to={"/portfolio/"}>
+            <Link to={"/"}>
               <h1>Home</h1>
             </Link>
           </div>
           <div className="nav-item">
-            <Link to={"/portfolio/projects"}>
+            <Link to={"/projects"}>
               <h1>Projects</h1>
             </Link>
           </div>
           <div className="nav-item">
-            <Link to={"/portfolio/about-me"}>
+            <Link to={"/about-me"}>
               <h1>About me</h1>
             </Link>
           </div>
           <div className="nav-item">
-            <Link to={"/portfolio/contact"}>
+            <Link to={"/contact"}>
               <h1>Contact</h1>
             </Link>
           </div>
@@ -59,16 +59,16 @@ function Navbar() {
         <div className={`drop-down-container ${isOpen ? "open" : "closed"}`}>
           <div className="empty-bar"></div>
           <div className="nav-item-container">
-            <Link to={"/portfolio/"}>
+            <Link to={"/"}>
               <h1>Home</h1>
             </Link>
-            <Link to={"/portfolio/projects"}>
+            <Link to={"/projects"}>
               <h1>Projects</h1>
             </Link>
-            <Link to={"/portfolio/about-me"}>
+            <Link to={"/about-me"}>
               <h1>About me</h1>
             </Link>
-            <Link to={"/portfolio/contact"}>
+            <Link to={"/contact"}>
               <h1>Contact</h1>
             </Link>
           </div>
