@@ -3,7 +3,7 @@ import "./Projects.scss";
 
 function Projects() {
   const redirect = () => {
-    window.location.href = "https://paralelst.github.io/AmazonTypescript/";
+    window.location.href = "https://amazonaronmatoic.netlify.app/";
   };
 
   return (
