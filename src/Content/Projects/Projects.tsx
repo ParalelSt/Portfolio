@@ -16,7 +16,7 @@ function Projects() {
             </div>
             <div className="title">Amazon Clone</div>
             <div className="description">
-              Amazon clone that I made using React.js, styled-components and
+              An Amazon clone that I made using React.js, styled-components and
               Typescript
             </div>
           </Link>

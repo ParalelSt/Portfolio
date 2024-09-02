@@ -1,0 +1,63 @@
+@import "../../Global/GlobalStyles.scss";
+
+.container {
+    display: flex;
+    padding: 2em;
+    margin-top: 4em;
+
+    justify-content: center;
+    align-items: start;
+    gap: 1em;
+
+    .left-section {
+        padding: 2em;
+        height: 100%;
+
+        .img-container {
+            border-radius: 1.2em;
+
+            img {
+                height: 35em;
+                width: 35em;
+                object-fit: cover;
+                border-radius: 1.2em;
+            }
+
+        }
+    }
+
+    .right-section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 1.3em;
+        padding: 2em;
+        margin-top: 3em;
+
+        .title-container {
+            h1 {
+                font-size: 3em;
+            }
+        }
+
+        .section-container {
+            span {
+                font-size: 1.5em;
+            }
+        }
+
+        .bottom-container {
+            .education-section {
+                .title {
+                    font-size: 1.2em;
+                }
+
+                .info-section {
+                    span {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}
