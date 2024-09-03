@@ -46,13 +46,13 @@
                 border-radius: 1.2em;
 
                 @include xs {
-                    height: 100%em;
-                    width: 100%em;
+                    height: 20em;
+                    width: 20em;
                 }
 
                 @include sm {
-                    height: 100%em;
-                    width: 100%em;
+                    height: 20em;
+                    width: 20em;
                 }
 
             }
