@@ -82,6 +82,10 @@
                     font-size: 1.2em;
                     span {
                         font-weight: normal;
+
+                        @include xs {
+                            font-size: 0.9em;
+                        }
                     }
 
                     @include xs {
