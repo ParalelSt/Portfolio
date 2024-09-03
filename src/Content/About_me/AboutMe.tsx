@@ -28,8 +28,11 @@ function AboutMe() {
             <div className="education-section">
               <div className="title">
                 <h2>
-                  Education: Mechanical Engineering at Secondary school "Ivan
-                  Seljanec" Križevci
+                  Education:{" "}
+                  <span>
+                    Mechanical Engineering at Secondary school "Ivan Seljanec"
+                    Križevci
+                  </span>
                 </h2>
               </div>
               <div className="info-section">

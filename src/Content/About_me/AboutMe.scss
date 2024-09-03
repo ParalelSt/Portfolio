@@ -5,9 +5,14 @@
     padding: 2em;
     margin-top: 4em;
 
-    justify-content: center;
-    align-items: start;
     gap: 1em;
+
+    @include xs {
+        flex-direction: column;
+        padding: 0.5em;
+        margin-top: 3em;
+    }
+
 
     .left-section {
         padding: 2em;
@@ -21,6 +26,11 @@
                 width: 35em;
                 object-fit: cover;
                 border-radius: 1.2em;
+
+                @include xs {
+                    height: 20em;
+                    width: 20em;
+                }
             }
 
         }
@@ -34,30 +44,70 @@
         padding: 2em;
         margin-top: 3em;
 
+
+        @include xs {
+            height: 20em;
+            width: 20em;
+            margin-top: -1em;
+        }
+
         .title-container {
+            
             h1 {
+
                 font-size: 3em;
+
+                @include xs {
+                    font-size: 2em;
+                    line-height: 1.2em;
+                }
             }
         }
 
         .section-container {
             span {
                 font-size: 1.5em;
+
+                @include xs {
+                    font-size: 1.2em;
+                }
             }
         }
 
         .bottom-container {
+
+
             .education-section {
                 .title {
                     font-size: 1.2em;
+                    span {
+                        font-weight: normal;
+                    }
+
+                    @include xs {
+                        font-size: 1em;
+                    }
                 }
 
                 .info-section {
                     span {
                         font-size: 1.5em;
+
+                        @include xs {
+                            font-size: 1.2em;
+                        }
+                    }
+
+                    @include xs {
+                        margin-top: 1em;
+                        margin-bottom: 2em;
                     }
                 }
             }
         }
+
+        
     }
+
+    
 }
