@@ -15,8 +15,9 @@ function AboutMe() {
           </div>
           <div className="section-container">
             <span>
-              I am a 19 year old Web Developer that primarily uses React, SCSS
-              and Typescript for making the frontend of my sites. {""}
+              I am a 19 year old Web Developer with a focus on creating
+              responsive and dynamic websites using React, SCSS and Typescript.{" "}
+              {""}
               Lately I've been slowly getting into learning backend as well. For
               my database I use PostgreSQL, for building my server-side
               applications I use NestJS and TypeORM. {""}
