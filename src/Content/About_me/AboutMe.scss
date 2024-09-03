@@ -49,6 +49,7 @@
                 min-width: 20em;
                 object-fit: cover;
                 border-radius: 1.2em;
+                aspect-ratio: 16 / 9;
 
                 @include xs {
                     height: 20em;
