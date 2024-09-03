@@ -23,6 +23,7 @@
     .left-section {
         padding: 2em;
         height: 100%;
+        display: flex;
 
         .img-container {
             border-radius: 1.2em;
@@ -34,6 +35,11 @@
                 border-radius: 1.2em;
 
                 @include xs {
+                    height: 20em;
+                    width: 20em;
+                }
+
+                @include sm {
                     height: 20em;
                     width: 20em;
                 }
