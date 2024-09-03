@@ -29,11 +29,6 @@
             border-radius: 1.2em;
 
             img {
-                height: 35em;
-                width: 35em;
-                object-fit: cover;
-                border-radius: 1.2em;
-
                 @include xs {
                     height: 20em;
                     width: 20em;
@@ -43,6 +38,12 @@
                     height: 20em;
                     width: 20em;
                 }
+
+                height: 35em;
+                width: 35em;
+                object-fit: cover;
+                border-radius: 1.2em;
+
             }
 
         }
