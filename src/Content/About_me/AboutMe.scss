@@ -24,6 +24,8 @@
         padding: 2em;
         height: 100%;
         display: flex;
+        justify-content: center;
+        align-items: center;
 
         @include xs {
             height: 20em;
@@ -37,6 +39,7 @@
 
         .img-container {
             border-radius: 1.2em;
+            
 
             img {
 
@@ -73,6 +76,14 @@
             height: 20em;
             width: 20em;
             margin-top: -1em;
+            padding: 1.5em 1em;
+        }
+
+        @include sm {
+            height: 20em;
+            width: 20em;
+            margin-top: -1em;
+            padding: 1.5em 0.5em;
         }
 
         .title-container {
@@ -85,6 +96,11 @@
                     font-size: 2em;
                     line-height: 1.2em;
                 }
+
+                @include sm {
+                    font-size: 2em;
+                    line-height: 1.2em;
+                }
             }
         }
 
@@ -94,6 +110,10 @@
 
                 @include xs {
                     font-size: 1.2em;
+                }
+
+                @include sm {
+                    font-size: 1.3em;
                 }
             }
         }
@@ -110,10 +130,18 @@
                         @include xs {
                             font-size: 0.9em;
                         }
+
+                        @include sm {
+                            font-size: 1em;
+                        }
                     }
 
                     @include xs {
                         font-size: 1em;
+                    }
+
+                    @include sm {
+                        font-size: 1.1em;
                     }
                 }
 
@@ -124,9 +152,18 @@
                         @include xs {
                             font-size: 1.2em;
                         }
+
+                        @include sm {
+                            font-size: 1.3em;
+                        }
                     }
 
                     @include xs {
+                        margin-top: 1em;
+                        margin-bottom: 2em;
+                    }
+
+                    @include sm {
                         margin-top: 1em;
                         margin-bottom: 2em;
                     }
