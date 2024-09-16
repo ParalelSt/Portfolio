@@ -23,9 +23,6 @@ function Projects() {
               Typescript
             </div>
           </a>
-        </div>
-
-        <div className="projects-container">
           <a onClick={facebook} className="project-container">
             <div className="img-container">
               <img src="./images/facebookclone.png" />
